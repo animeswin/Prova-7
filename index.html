@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova 7</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Calculadora de Gorjetas</h1>
+    <div id="container">
+    <label for="valor_conta">Valor da Conta:</label>
+    <input type="number" id="valor_conta" placeholder="Digite o valor da conta">
+    
+    <label for="qlde_servico">Qualidade do Serviço:</label>
+    <select id="qlde_servico">
+        <option value="bom">Bom</option>
+        <option value="regular">Regular</option>
+        <option value="ruim">Ruim</option>
+    </select>
+    
+    <button onclick="calculateTip()">Calcular Gorjeta</button>
+    
+    <h2 id="gorjeta">Gorjeta: R$ 0,00</h2>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
